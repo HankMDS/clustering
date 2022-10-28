@@ -107,7 +107,7 @@ def draw(cluster_set, cluster_index, N, str_title=''):
 
 
 if __name__ == '__main__':
-    datas = loadDatas('D:\\聚类\\数据集\\数据集\\数据集\\人工数据集\\Spiral.txt', ',', 0, 2)
+    datas = loadDatas('Spiral.txt', ',', 0, 2)
     k = 3
     m_agens = Agens(datas, k, method='avg')
     cluster_set, cluster_index = m_agens.fit()
